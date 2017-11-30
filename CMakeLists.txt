@@ -8,7 +8,7 @@ set( CMAKE_BUILD_TYPE Release )
 
 
 
-ADD_EXECUTABLE( ADRC ADRC.cpp )
+ADD_EXECUTABLE( ADRC adrc_test.cpp )
 TARGET_LINK_LIBRARIES( ADRC
     ${OpenCV_LIBS})
 
